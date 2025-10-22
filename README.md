@@ -1,9 +1,5 @@
-# CipherStudio
-
-A web-based code editor with project management capabilities.
 
 ## Setup
-
 ### Server
 1. Navigate to server directory: `cd server`
 2. Install dependencies: `npm install`
@@ -17,7 +13,6 @@ A web-based code editor with project management capabilities.
 4. Start client: `npm run dev`
 
 ## Environment Variables
-
 ### Server (.env)
 - `PORT` - Server port (default: 5174)
 - `MONGO_URI` - MongoDB connection string
@@ -28,6 +23,5 @@ A web-based code editor with project management capabilities.
 ### Client (.env)
 - `VITE_BACKEND_URL` - Backend API URL
 
-## Deployment
-
-Make sure to set environment variables in your deployment platform and update URLs accordingly.
+## Deployment link
+https://cipher-studio-seven.vercel.app/
