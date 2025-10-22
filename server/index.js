@@ -12,7 +12,7 @@ const app = express();
 
 app.use(cors({
   // origin: process.env.FRONTEND_URI || 'http://localhost:5173',
-  origin:'https://cipherstudio-frontend.onrender.com/';
+  origin:'https://cipherstudio-frontend.onrender.com/',
   credentials: true
 }));
 app.use(express.json());
