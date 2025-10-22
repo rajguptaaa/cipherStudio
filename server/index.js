@@ -11,7 +11,7 @@ connectDB();
 const app = express();
 
 app.use(cors({
-  origin: process.env.FRONTEND_URI || 'https://cipherstudio-frontend.onrender.com/',
+  origin: process.env.FRONTEND_URI || 'https://cipher-studio-seven.vercel.app/',
   // origin:'https://cipherstudio-frontend.onrender.com/',
   credentials: true
 }));
